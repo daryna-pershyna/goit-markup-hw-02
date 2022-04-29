@@ -159,7 +159,12 @@ body {
 
 /* Button */
 
-.btn {
+.btn.main{
+    color: white;
+    background-color: var(--accent-text-color);
+}
+.btn:hover,
+.btn:focus {
     color: white;
     background-color: var(--accent-text-color);
 }
