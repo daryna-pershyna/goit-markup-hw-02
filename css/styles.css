@@ -19,6 +19,10 @@ body {
 }
 .link {
     text-decoration: none;
+    color: currentColor;
+}
+.contacts-list .link {
+    color: var(--primary-txt-cl);
 }
 /* Page header */
 .logo {
@@ -139,6 +143,9 @@ body {
 .contacts-list .link:hover {
     color: var(--accent-cl);
 }
+.company-addresses .link {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* Button */
 
@@ -173,7 +180,7 @@ body {
 }
 /* Portfolio */
 /* main */
-.activities-example-title {
+.activities-example-title { 
     color: var(--title-txt-cl);
     font-weight: 700;
     font-size: 18px;
