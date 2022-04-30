@@ -124,15 +124,16 @@ body {
 .page-footer {
     background-color: var(--accent-bg-cl);
 }
+.company-addresses {
+    font-style: normal;
+}
 .physical-adress {
     color: var(--white-txt-cl);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
 .link-footer {
     text-decoration: none;
-    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
