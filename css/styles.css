@@ -21,9 +21,7 @@ body {
     text-decoration: none;
     color: currentColor;
 }
-.contacts-list .link {
-    color: var(--primary-txt-cl);
-}
+
 /* Page header */
 .logo {
     color: #000000;
@@ -39,10 +37,12 @@ body {
     font-size: 26px;
     line-height: 1.19;
 }
+.logo-text-end {
+    color: var(--white-txt-cl)
+}
 /* Site nav */
 .site-nav {
     color: var(--title-txt-cl);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,14 +56,15 @@ body {
     color: var(--accent-cl);
 }
 /* Contact */
-.contacts-list {
+.contacts-list-header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--primary-txt-cl);
 }
-.contacts-list .link:hover,
-.contacts-list .link:focus {
+.contacts-list-header .link:hover,
+.contacts-list-header .link:focus {
     color: var(--accent-cl);
 }
 
@@ -123,29 +124,24 @@ body {
 .page-footer {
     background-color: var(--accent-bg-cl);
 }
-.logo-text-end {
-    color: var(--white-txt-cl)
-}
 .physical-adress {
     color: var(--white-txt-cl);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
-.contacts-list {
+.link-footer {
+    text-decoration: none;
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
 }
-.contacts-list .link:focus,
-.contacts-list .link:hover {
+.link-footer:hover,
+.link-footer:focus {
     color: var(--accent-cl);
 }
-.company-addresses .link {
-    color: rgba(255, 255, 255, 0.6);
-}
+
 
 /* Button */
 
